@@ -1421,7 +1421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx06_Slide_9.78x17.42mm_W7.62mm_P2.54mm"
 			(at 123.19 91.44 0)
 			(effects
 				(font

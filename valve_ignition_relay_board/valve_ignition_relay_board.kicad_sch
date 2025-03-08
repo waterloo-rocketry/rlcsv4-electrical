@@ -4420,7 +4420,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
 			(at 139.7 149.86 0)
 			(effects
 				(font
@@ -4480,8 +4480,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 60.96 37.846 0)
+		(property "Value" "150mA"
+			(at 58.674 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,7 +4489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 65.532 36.83 90)
 			(effects
 				(font
@@ -4967,7 +4967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 254 138.43 0)
 			(effects
 				(font
@@ -5741,7 +5741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 248.92 25.4 0)
 			(effects
 				(font
@@ -6094,7 +6094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 246.38 24.13 0)
 			(effects
 				(font
@@ -6354,7 +6354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200A"
+		(property "Value" "200mA"
 			(at 77.47 38.0999 0)
 			(effects
 				(font
@@ -6363,7 +6363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 73.152 36.83 90)
 			(effects
 				(font
@@ -6695,7 +6695,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-28W_7.5x18.7mm_P1.27mm"
 			(at 181.61 81.28 0)
 			(effects
 				(font
@@ -6908,7 +6908,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 262.89 25.4 0)
 			(effects
 				(font
