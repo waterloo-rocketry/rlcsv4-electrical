@@ -4061,7 +4061,7 @@
 			)
 		)
 	)
-	(global_label "VSENSE_2"
+	(global_label "VSENSE_OUTPUT2"
 		(shape input)
 		(at 248.92 138.43 0)
 		(fields_autoplaced yes)
@@ -4073,7 +4073,7 @@
 		)
 		(uuid "13a96b76-47d4-4c5f-8658-715cd58638c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.2184 138.43 0)
+			(at 268.4151 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +4083,7 @@
 			)
 		)
 	)
-	(global_label "VSENSE_1"
+	(global_label "VSENSE_OUTPUT1"
 		(shape input)
 		(at 229.87 138.43 180)
 		(fields_autoplaced yes)
@@ -4095,7 +4095,7 @@
 		)
 		(uuid "15f198f9-813d-4768-ac8e-933e6263e597")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.5716 138.43 0)
+			(at 210.3749 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
