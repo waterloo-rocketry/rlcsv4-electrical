@@ -2649,6 +2649,12 @@
 		(uuid "419ce0db-277d-4149-8c6e-cec1862982c6")
 	)
 	(junction
+		(at 101.6 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "440bded1-b530-4dbd-b9bf-026eedf46260")
+	)
+	(junction
 		(at 87.63 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2719,6 +2725,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb6af2f6-829c-4f37-9480-7d4745e35d92")
+	)
+	(junction
+		(at 101.6 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef5ad89b-1eb4-45dc-adc0-4fd9e166995b")
 	)
 	(junction
 		(at 205.74 113.03)
@@ -3044,6 +3056,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 82.55) (xy 101.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "470adb49-7d34-4779-ab63-ddd67f9baa39")
+	)
+	(wire
+		(pts
 			(xy 26.67 34.29) (xy 48.26 34.29)
 		)
 		(stroke
@@ -3144,7 +3166,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 107.95) (xy 101.6 107.95)
+			(xy 93.98 71.12) (xy 101.6 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3224,6 +3246,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 80.01) (xy 101.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed9a6f0-d910-425d-b902-5bf063df0448")
+	)
+	(wire
+		(pts
 			(xy 57.15 101.6) (xy 57.15 104.14)
 		)
 		(stroke
@@ -3271,6 +3303,16 @@
 			(type default)
 		)
 		(uuid "772ec7c6-cafc-43fa-91ad-5e6b850c7201")
+	)
+	(wire
+		(pts
+			(xy 101.6 82.55) (xy 107.95 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "773a91c1-1cad-4299-9b9e-43938015d288")
 	)
 	(wire
 		(pts
@@ -3394,6 +3436,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 71.12) (xy 93.98 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87643dfe-e57d-4668-b8bd-41df343eec68")
+	)
+	(wire
+		(pts
 			(xy 236.22 113.03) (xy 236.22 127)
 		)
 		(stroke
@@ -3474,16 +3526,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 107.95) (xy 101.6 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95df84aa-7032-485d-93fc-d805d0c6cc29")
-	)
-	(wire
-		(pts
 			(xy 41.91 39.37) (xy 41.91 44.45)
 		)
 		(stroke
@@ -3501,6 +3543,16 @@
 			(type default)
 		)
 		(uuid "a3f3a5e9-4143-420b-b4d8-3b0496a7ccf7")
+	)
+	(wire
+		(pts
+			(xy 101.6 72.39) (xy 101.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3ce028-be59-43d0-8091-da47eec47948")
 	)
 	(wire
 		(pts
@@ -3939,6 +3991,17 @@
 	)
 	(text "= 30(10K/56K+10K)\n= 30/6.6\n= 4.55V"
 		(exclude_from_sim no)
+		(at 114.554 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5f67e46-b136-4fc4-8ecb-057b964ba294")
+	)
+	(text "= 30(10K/56K+10K)\n= 30/6.6\n= 4.55V"
+		(exclude_from_sim no)
 		(at 60.96 52.07 0)
 		(effects
 			(font
@@ -3947,6 +4010,16 @@
 			(justify left)
 		)
 		(uuid "e31169d4-be3c-4d42-ac5a-41fa4ac4d617")
+	)
+	(text "VSENSE"
+		(exclude_from_sim no)
+		(at 110.49 69.342 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4f3c288-1c39-41b4-bcfe-b83980fb6e19")
 	)
 	(text "= 30(10K/56K+10K)\n= 30/6.6\n= 4.55V"
 		(exclude_from_sim no)
@@ -4193,6 +4266,28 @@
 			)
 		)
 	)
+	(global_label "VSENSE_BATTERY"
+		(shape input)
+		(at 107.95 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5526ee7-ffb3-45e3-8388-944af72f03be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.8403 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "POWER"
 		(shape input)
 		(at 25.4 135.89 180)
@@ -4216,17 +4311,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 101.6 88.9 0)
+		(lib_id "power:GND")
+		(at 101.6 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0570a080-50ca-4d9e-80c0-0d98c8c0f0ee")
-		(property "Reference" "#PWR053"
-			(at 101.6 92.71 0)
+		(uuid "006ab665-4063-46a2-a741-0ca79ae90c7e")
+		(property "Reference" "#PWR073"
+			(at 101.6 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,8 +4329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 101.6 83.82 0)
+		(property "Value" "GND"
+			(at 101.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4338,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 88.9 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,7 +4347,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 88.9 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,8 +4355,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 101.6 88.9 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,12 +4365,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a2c455a-d336-4ffc-929b-eea4604a934d")
+			(uuid "bbc3468b-73a5-47ef-a736-8f7cc35204d6")
 		)
 		(instances
-			(project ""
+			(project "valve_ignition_relay_board"
 				(path "/94351a53-b420-4d44-8362-943e33303975/81353166-947a-4a33-8395-b68f20448e6e"
-					(reference "#PWR053")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -4342,6 +4437,141 @@
 			(project ""
 				(path "/94351a53-b420-4d44-8362-943e33303975/81353166-947a-4a33-8395-b68f20448e6e"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 57.15 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bab88c6-2637-4b67-9b8c-7d9527cd37a0")
+		(property "Reference" "#PWR053"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7c8d66d-386e-4f94-834b-22e691f329c7")
+		)
+		(instances
+			(project "valve_ignition_relay_board"
+				(path "/94351a53-b420-4d44-8362-943e33303975/81353166-947a-4a33-8395-b68f20448e6e"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 101.6 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1250b0d6-5cf7-4d31-a5cd-086ab29724cd")
+		(property "Reference" "R38"
+			(at 104.14 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 100.584 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edb51e97-cdfe-4ea5-a6d9-e15c8f6c8c09")
+		)
+		(pin "2"
+			(uuid "07dc6aff-b04d-4c26-9791-d412b0356784")
+		)
+		(instances
+			(project "valve_ignition_relay_board"
+				(path "/94351a53-b420-4d44-8362-943e33303975/81353166-947a-4a33-8395-b68f20448e6e"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -5938,6 +6168,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 101.6 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57187aa8-7abd-4add-a51e-e09f1097a23a")
+		(property "Reference" "#PWR017"
+			(at 101.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 101.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c6a34b8-6b05-4694-bd91-3cc0188306b2")
+		)
+		(instances
+			(project ""
+				(path "/94351a53-b420-4d44-8362-943e33303975/81353166-947a-4a33-8395-b68f20448e6e"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 31.75 135.89 90)
 		(unit 1)
@@ -6946,6 +7242,76 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 101.6 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5b6ceb5-1b7e-44e7-a285-d34ed1f030e6")
+		(property "Reference" "R37"
+			(at 104.14 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "56K"
+			(at 104.14 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 100.584 75.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03c38172-1caf-4f57-a39a-4cbb45e414b2")
+		)
+		(pin "2"
+			(uuid "9efe9d6b-2f30-48b7-802d-df233c2df4a1")
+		)
+		(instances
+			(project "valve_ignition_relay_board"
+				(path "/94351a53-b420-4d44-8362-943e33303975/81353166-947a-4a33-8395-b68f20448e6e"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 236.22 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7074,72 +7440,6 @@
 			(project ""
 				(path "/94351a53-b420-4d44-8362-943e33303975/81353166-947a-4a33-8395-b68f20448e6e"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 57.15 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8f72da9-e0f8-4f7c-8911-aecdf92da402")
-		(property "Reference" "#PWR022"
-			(at 57.15 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 57.15 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 57.15 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a728feac-77d3-4963-92cb-a2e7558c2cac")
-		)
-		(instances
-			(project ""
-				(path "/94351a53-b420-4d44-8362-943e33303975/81353166-947a-4a33-8395-b68f20448e6e"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
