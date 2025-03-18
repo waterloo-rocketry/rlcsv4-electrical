@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "canhw")(type "KiCad")(uri "${KIPRJMOD}/../kicad-footprints/canhw.kicad_sym")(options "")(descr ""))
+  (lib (name "KSZ8001LI")(type "KiCad")(uri "${KIPRJMOD}/KSZ8001LI.kicad_sym")(options "")(descr ""))
+)
