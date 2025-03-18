@@ -4112,203 +4112,104 @@
 		)
 		(uuid "d15857c0-bfb6-4fcd-9955-363c3d639947")
 	)
-	(global_label "CURR_SENSE_2"
-		(shape input)
-		(at 228.6 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0745477b-d55b-4bf9-8c2c-dd6b477777c6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.9179 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSENSE_OUTPUT2"
-		(shape input)
-		(at 248.92 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "13a96b76-47d4-4c5f-8658-715cd58638c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.4151 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSENSE_OUTPUT1"
-		(shape input)
-		(at 229.87 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "15f198f9-813d-4768-ac8e-933e6263e597")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.3749 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SELECT"
-		(shape input)
-		(at 76.2 157.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ae21c23-c577-46a3-bdec-3f2db2136aa9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.4416 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LIM_1"
-		(shape input)
-		(at 29.21 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "74d5cf93-d2fd-44ce-ad6b-005f471d4c87")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.9634 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LIM_2"
-		(shape input)
-		(at 48.26 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7b771412-90af-47ad-844b-902a898ff264")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.5066 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CURR_SENSE_1"
-		(shape input)
-		(at 208.28 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b39d30c7-4e94-428d-94a3-d64dfe734d08")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.5979 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSENSE_BATTERY"
-		(shape input)
-		(at 107.95 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b5526ee7-ffb3-45e3-8388-944af72f03be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.8403 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POWER"
+	(hierarchical_label "POWER"
 		(shape input)
 		(at 25.4 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c14cdb20-77a9-4e28-988f-c01228776c63")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.9439 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "3744ac26-e118-487c-b5e2-56a1d1b01903")
+	)
+	(hierarchical_label "LIM_2"
+		(shape input)
+		(at 48.26 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "5be9ed31-85e6-4e53-a13e-588c5240e822")
+	)
+	(hierarchical_label "VSENSE_OUTPUT2"
+		(shape input)
+		(at 248.92 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66dbbf06-c070-4cf6-a6c5-02f4fac51f70")
+	)
+	(hierarchical_label "CURR_SENSE_2"
+		(shape output)
+		(at 228.6 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6efd22ad-38bd-4fa4-9781-e97722c2a547")
+	)
+	(hierarchical_label "SELECT"
+		(shape input)
+		(at 76.2 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3ae3b26-192a-4c4b-8f12-c0c1540995cb")
+	)
+	(hierarchical_label "VSENSE_OUTPUT1"
+		(shape input)
+		(at 229.87 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be9c9613-fe5e-4448-a413-1eeaa56dfa09")
+	)
+	(hierarchical_label "LIM_1"
+		(shape input)
+		(at 29.21 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7c30950-232b-4498-825a-d0b3f6599f7a")
+	)
+	(hierarchical_label "CURR_SENSE_1"
+		(shape output)
+		(at 208.28 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8e551ab-29ea-4a75-8bb5-69d77f340765")
+	)
+	(hierarchical_label "VSENSE_BATTERY"
+		(shape input)
+		(at 107.95 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0bae520-9362-40e2-af8b-1dea3868a4a7")
 	)
 	(symbol
 		(lib_id "power:GND")
