@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PIC24EP512GU810")(type "KiCad")(uri "${KIPRJMOD}/PIC24EP512GU810.kicad_sym")(options "")(descr ""))
+  (lib (name "ENC624J600-I_PT")(type "KiCad")(uri "${KIPRJMOD}/ENC624J600-I_PT.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS2124")(type "KiCad")(uri "${KIPRJMOD}/TPS2124.kicad_sym")(options "")(descr ""))
+)
