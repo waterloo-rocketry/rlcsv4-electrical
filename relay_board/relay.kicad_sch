@@ -3914,6 +3914,30 @@
 		)
 		(uuid "ffc1735b-e5d8-4e78-b746-cde388f129f0")
 	)
+	(rectangle
+		(start 12.192 12.192)
+		(end 84.836 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0e0a659c-cd11-4ae5-ac37-d48255193224)
+	)
+	(rectangle
+		(start 84.836 12.192)
+		(end 166.116 60.198)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a251cdf5-8ebf-4836-8c88-1fffbbc66f3f)
+	)
 	(text "If = (5V - Vf/Rs)\nRs = (5V-Vf)/If\nRs = (5 - 1.2)/0.02\nRs = 190Ohms\nRs = 220 on E12 Series"
 		(exclude_from_sim no)
 		(at 46.736 174.244 0)
@@ -3978,6 +4002,17 @@
 		)
 		(uuid "7cda2857-dd87-4cab-af31-20d8780fd119")
 	)
+	(text "ACTUATOR"
+		(exclude_from_sim no)
+		(at 48.26 86.36 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "8b7ca681-ead6-4d36-a6bd-ce8e769ac6b9")
+	)
 	(text "D8/D9: DNP\n\nPads available for \nflyback diodes if \nD6/D7 not in use"
 		(exclude_from_sim no)
 		(at 191.262 148.59 0)
@@ -3999,6 +4034,16 @@
 			(justify left)
 		)
 		(uuid "c5f67e46-b136-4fc4-8ecb-057b964ba294")
+	)
+	(text "BATTERY"
+		(exclude_from_sim no)
+		(at 126.492 54.864 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "dc425fbf-0d96-4e54-88f7-2ec65d144364")
 	)
 	(text "= 30(10K/56K+10K)\n= 30/6.6\n= 4.55V"
 		(exclude_from_sim no)
