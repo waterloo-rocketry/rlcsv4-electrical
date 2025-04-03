@@ -4933,7 +4933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+		(property "Footprint" "relay_board:SODFL3618X110N"
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -4942,7 +4942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N5817W%20THRU%201N5819W%20N1756%20REV.A.pdf"
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -6815,7 +6815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/PIC18(L)F2526K83-Data-Sheet-DS40001943C.pdf"
 			(at 127 88.9 0)
 			(effects
 				(font
@@ -7485,7 +7485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+		(property "Footprint" "relay_board:SODFL3618X110N"
 			(at 173.99 105.41 0)
 			(effects
 				(font
@@ -7494,7 +7494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N5817W%20THRU%201N5819W%20N1756%20REV.A.pdf"
 			(at 173.99 105.41 0)
 			(effects
 				(font
@@ -7712,7 +7712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf"
 			(at 251.46 138.43 0)
 			(effects
 				(font
@@ -8268,7 +8268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+		(property "Footprint" "relay_board:SODFL3618X110N"
 			(at 29.21 60.96 0)
 			(effects
 				(font
@@ -8277,7 +8277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N5817W%20THRU%201N5819W%20N1756%20REV.A.pdf"
 			(at 29.21 60.96 0)
 			(effects
 				(font
@@ -8627,7 +8627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+		(property "Footprint" "relay_board:SODFL3618X110N"
 			(at 40.64 104.14 0)
 			(effects
 				(font
@@ -8636,7 +8636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N5817W%20THRU%201N5819W%20N1756%20REV.A.pdf"
 			(at 40.64 104.14 0)
 			(effects
 				(font
@@ -9191,7 +9191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+		(property "Footprint" "relay_board:SODFL3618X110N"
 			(at 198.12 95.25 0)
 			(effects
 				(font
@@ -9200,7 +9200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N5817W%20THRU%201N5819W%20N1756%20REV.A.pdf"
 			(at 198.12 95.25 0)
 			(effects
 				(font
@@ -9886,7 +9886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+		(property "Footprint" "relay_board:SODFL3618X110N"
 			(at 173.99 120.65 0)
 			(effects
 				(font
@@ -9895,7 +9895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N5817W%20THRU%201N5819W%20N1756%20REV.A.pdf"
 			(at 173.99 120.65 0)
 			(effects
 				(font
