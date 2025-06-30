@@ -3,4 +3,6 @@
   (lib (name "canhw")(type "KiCad")(uri "${KIPRJMOD}/../kicad-footprints/canhw.kicad_sym")(options "")(descr ""))
   (lib (name "relay_board")(type "KiCad")(uri "${KIPRJMOD}/relay_board.kicad_sym")(options "")(descr ""))
   (lib (name "PS2702-1")(type "KiCad")(uri "${KIPRJMOD}/PS2702-1.kicad_sym")(options "")(descr ""))
+  (lib (name "T9GV1L14-12")(type "KiCad")(uri "${KIPRJMOD}/T9GV1L14-12.kicad_sym")(options "")(descr ""))
+  (lib (name "T92S11D12-12")(type "KiCad")(uri "${KIPRJMOD}/T92S11D12-12.kicad_sym")(options "")(descr ""))
 )
