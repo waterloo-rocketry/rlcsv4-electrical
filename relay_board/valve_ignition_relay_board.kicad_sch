@@ -1675,6 +1675,18 @@
 		(uuid "c0c61475-52bb-4d42-8d47-6d196198a408")
 	)
 	(junction
+		(at 171.45 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d91a4e9c-dd9f-4a32-943f-cfb9ed862fa1")
+	)
+	(junction
+		(at 162.56 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f968c422-8582-433b-ae54-9391e8f42f14")
+	)
+	(junction
 		(at 114.3 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1692,7 +1704,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 118.11) (xy 90.17 96.52)
+			(xy 90.17 118.11) (xy 90.17 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1732,7 +1744,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 86.36) (xy 191.77 86.36)
+			(xy 179.07 82.55) (xy 191.77 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1812,6 +1824,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 74.93) (xy 179.07 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3309a7fe-8d71-4a7e-b85f-9099d2730443")
+	)
+	(wire
+		(pts
 			(xy 179.07 107.95) (xy 191.77 107.95)
 		)
 		(stroke
@@ -1839,6 +1861,16 @@
 			(type default)
 		)
 		(uuid "3c57b821-ceb3-48ad-9ae2-a60f8eb7a55d")
+	)
+	(wire
+		(pts
+			(xy 171.45 52.07) (xy 171.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd0772a-5f99-4c25-b71e-dbb8ae925235")
 	)
 	(wire
 		(pts
@@ -1889,6 +1921,16 @@
 			(type default)
 		)
 		(uuid "4511e844-6360-4a9a-ba86-d6bf7e6c72b6")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.2) (xy 162.56 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46301f73-689d-46db-bebb-6760cad1d3f0")
 	)
 	(wire
 		(pts
@@ -1962,7 +2004,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 115.57) (xy 87.63 93.98)
+			(xy 171.45 50.8) (xy 181.61 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5598dc82-4220-41d8-bbcf-671e7496e7fb")
+	)
+	(wire
+		(pts
+			(xy 87.63 115.57) (xy 87.63 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1979,6 +2031,16 @@
 			(type default)
 		)
 		(uuid "5850eb9a-290c-4d73-9ffb-bf442964384c")
+	)
+	(wire
+		(pts
+			(xy 167.64 50.8) (xy 171.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a048405-e655-4c45-9901-af62b4554873")
 	)
 	(wire
 		(pts
@@ -2022,7 +2084,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 96.52) (xy 191.77 96.52)
+			(xy 90.17 97.79) (xy 191.77 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2032,7 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 74.93) (xy 130.81 74.93)
+			(xy 128.27 74.93) (xy 151.13 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2052,7 +2114,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 83.82) (xy 191.77 83.82)
+			(xy 181.61 80.01) (xy 191.77 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2212,7 +2274,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 50.8) (xy 181.61 50.8)
+			(xy 162.56 83.82) (xy 162.56 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f79474-7799-4943-8ea8-7864950aa6ed")
+	)
+	(wire
+		(pts
+			(xy 130.81 50.8) (xy 160.02 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2229,6 +2301,16 @@
 			(type default)
 		)
 		(uuid "9b6444e2-771a-4a14-85c1-3770610e29da")
+	)
+	(wire
+		(pts
+			(xy 171.45 59.69) (xy 171.45 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce5275f-fb69-4cb0-bdff-1ddf10db4d6a")
 	)
 	(wire
 		(pts
@@ -2342,7 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 93.98) (xy 191.77 93.98)
+			(xy 87.63 95.25) (xy 191.77 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2362,7 +2444,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 74.93) (xy 130.81 86.36)
+			(xy 179.07 74.93) (xy 179.07 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2512,6 +2594,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 74.93) (xy 162.56 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9952e70-5df6-48d0-8651-62d5ea4ba414")
+	)
+	(wire
+		(pts
 			(xy 68.58 33.02) (xy 68.58 69.85)
 		)
 		(stroke
@@ -2612,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 50.8) (xy 181.61 83.82)
+			(xy 181.61 50.8) (xy 181.61 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2755,6 +2847,141 @@
 			(project "valve_ignition_relay_board"
 				(path "/94351a53-b420-4d44-8362-943e33303975"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ee296e9-0d4c-4ee3-ac14-b5a23142a554")
+		(property "Reference" "#PWR070"
+			(at 171.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64ad6437-6746-4143-8e56-00daa6406f6b")
+		)
+		(instances
+			(project "valve_ignition_relay_board"
+				(path "/94351a53-b420-4d44-8362-943e33303975"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 162.56 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21e1dee0-95ea-4b4d-9b37-871909766077")
+		(property "Reference" "C13"
+			(at 166.37 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.6nF"
+			(at 166.37 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 161.5948 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0dfaf5a6-854c-4a55-a68d-dcca1c8484dd")
+		)
+		(pin "1"
+			(uuid "62325d0d-80f3-4be8-b98f-466d647e4dd5")
+		)
+		(instances
+			(project "valve_ignition_relay_board"
+				(path "/94351a53-b420-4d44-8362-943e33303975"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3390,7 +3617,7 @@
 				)
 			)
 		)
-		(property "Value" "0.25"
+		(property "Value" "0.25R"
 			(at 73.152 73.914 0)
 			(effects
 				(font
@@ -3501,6 +3728,75 @@
 			(project ""
 				(path "/94351a53-b420-4d44-8362-943e33303975"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 154.94 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "785d724c-acd6-4931-9d02-6094565ffde8")
+		(property "Reference" "R33"
+			(at 156.718 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "500R"
+			(at 156.718 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 154.686 75.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 154.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b65cafac-8044-44ff-a50b-e7f6610c7780")
+		)
+		(pin "2"
+			(uuid "91de05d8-1078-4605-ba30-876e9a63d023")
+		)
+		(instances
+			(project "valve_ignition_relay_board"
+				(path "/94351a53-b420-4d44-8362-943e33303975"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -3783,6 +4079,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 162.56 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95622918-cfdd-4a0e-abaf-e2840dd2da07")
+		(property "Reference" "#PWR071"
+			(at 162.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f756a92-0922-4b25-b76c-efb4256dd1ea")
+		)
+		(instances
+			(project "valve_ignition_relay_board"
+				(path "/94351a53-b420-4d44-8362-943e33303975"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 168.91 107.95 90)
 		(unit 1)
@@ -3845,6 +4206,76 @@
 			(project ""
 				(path "/94351a53-b420-4d44-8362-943e33303975"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 171.45 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d56727d-ecaf-43d7-8aa5-10387bc0c446")
+		(property "Reference" "C12"
+			(at 175.26 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.6nF"
+			(at 175.26 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 170.4848 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fdb54eb6-f5c0-4d8c-9d68-c61c266c36d5")
+		)
+		(pin "1"
+			(uuid "d01886be-e1aa-4259-ad4b-99e682d4a1fc")
+		)
+		(instances
+			(project "valve_ignition_relay_board"
+				(path "/94351a53-b420-4d44-8362-943e33303975"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5068,6 +5499,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5574294-8f1c-44c7-ba06-7dae2bd1a6f7")
+		(property "Reference" "R32"
+			(at 165.608 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "500R"
+			(at 165.608 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 163.576 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 163.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6703b325-9701-480e-832e-61ec28cd4c2f")
+		)
+		(pin "2"
+			(uuid "d1234870-7ef8-47b4-b2ef-cecd0d2977c6")
+		)
+		(instances
+			(project "valve_ignition_relay_board"
+				(path "/94351a53-b420-4d44-8362-943e33303975"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 144.78 34.29 0)
 		(unit 1)
@@ -5192,7 +5692,7 @@
 			(uuid "102defb5-767e-4f63-af94-193d99a0567d")
 		)
 		(pin "CANH" input
-			(at 191.77 93.98 180)
+			(at 191.77 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +5702,7 @@
 			(uuid "bfcf718f-d80a-4804-9363-ba75cbe211c1")
 		)
 		(pin "CANL" input
-			(at 191.77 96.52 180)
+			(at 191.77 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +5712,7 @@
 			(uuid "e21a90e3-8447-4cf8-bb30-527122c37d3d")
 		)
 		(pin "CURRSENSE_IN5V" input
-			(at 191.77 86.36 180)
+			(at 191.77 82.55 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5222,7 +5722,7 @@
 			(uuid "92f2b1e1-e860-4ba3-9e8b-bf4fb257c936")
 		)
 		(pin "CURRSENSE_IN12V" input
-			(at 191.77 83.82 180)
+			(at 191.77 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
