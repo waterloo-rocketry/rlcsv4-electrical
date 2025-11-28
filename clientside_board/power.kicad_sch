@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "fc04df8e-97e4-4723-aaed-2ca61aef3935")
 	(paper "A4")
 	(title_block
@@ -10,7 +10,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -83,7 +85,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -95,7 +97,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -144,11 +146,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -246,10 +253,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -258,10 +265,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -307,11 +314,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -378,32 +390,8 @@
 			)
 			(symbol "L_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
 					(end 0 1.27)
 					(stroke
 						(width 0)
@@ -415,8 +403,32 @@
 				)
 				(arc
 					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -464,11 +476,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -536,10 +553,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -560,7 +589,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -572,22 +601,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -633,9 +650,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -706,18 +726,6 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
@@ -730,7 +738,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -754,7 +762,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -803,6 +823,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Regulator_Switching:TPS62160DGK"
 			(exclude_from_sim no)
@@ -887,24 +908,6 @@
 			)
 			(symbol "TPS62160DGK_1_1"
 				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -10.16 7.62 0)
 					(length 2.54)
 					(name "VIN"
@@ -940,6 +943,42 @@
 						)
 					)
 				)
+				(pin open_collector line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 2.54 -10.16 90)
 					(length 2.54)
@@ -951,42 +990,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "VOS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1012,17 +1015,35 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at -10.16 -2.54 0)
+				(pin input line
+					(at 10.16 5.08 180)
 					(length 2.54)
-					(name "PG"
+					(name "VOS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1031,6 +1052,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "canhw:INA180"
 			(pin_names
@@ -1085,18 +1107,6 @@
 			(symbol "INA180_0_1"
 				(polyline
 					(pts
-						(xy 5.08 0) (xy -7.62 8.89)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -7.62 8.89) (xy -7.62 -10.16) (xy 5.08 0)
 					)
 					(stroke
@@ -1107,37 +1117,31 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "INA180_1_1"
-				(pin output line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -7.62 8.89)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-				(pin power_in line
-					(at -12.7 -5.08 0)
+			)
+			(symbol "INA180_1_1"
+				(pin input line
+					(at -12.7 2.54 0)
 					(length 5.08)
-					(name "GND"
+					(name "IN-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1163,17 +1167,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 2.54 0)
+				(pin power_in line
+					(at -12.7 -5.08 0)
 					(length 5.08)
-					(name "IN-"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1199,13 +1203,36 @@
 						)
 					)
 				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1277,7 +1304,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1289,7 +1316,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1320,12 +1347,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1397,7 +1429,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1409,7 +1441,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1440,12 +1472,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1536,7 +1573,184 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "100 V/V"
+		(exclude_from_sim no)
+		(at 76.2 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05d13656-8a7f-4c50-9ee8-c1eb7db22b96")
+	)
+	(text "400mA * 50 mohm * 100 V/V = 2V"
+		(exclude_from_sim no)
+		(at 60.706 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07d37006-4e3d-4000-9248-d59a93adea16")
+	)
+	(text "VIN_PWRGOOD\nFor LiPo power input only, would not light up with USB Power"
+		(exclude_from_sim no)
+		(at 125.984 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ac35a85-5e8c-4629-a0b9-656c2665b76d")
+	)
+	(text "200mA * 100 mohm * 100V/V = 2V"
+		(exclude_from_sim no)
+		(at 198.628 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ea3bee7-db3a-4fc5-a575-2c0d07a1b5ba")
+	)
+	(text "https://www.waveshare.com/wiki/2-CH_UART_TO_ETH"
+		(exclude_from_sim no)
+		(at 250.19 80.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ca28f35-fac9-4739-80fb-600d0d7a11f7")
+	)
+	(text "Voltage Sensing"
+		(exclude_from_sim no)
+		(at 217.932 18.542 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "99269999-b540-49b6-b4ba-16b74fe67808")
+	)
+	(text "800mA * 30 mohm * 100 V/V = 2.4V"
+		(exclude_from_sim no)
+		(at 32.004 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ed70cdb-be51-4393-8f3e-a3170dc8604c")
+	)
+	(text "Power OR-ing and input current sense"
+		(exclude_from_sim no)
+		(at 79.502 116.84 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "a02034d9-e1b5-427b-92e0-f144c9e9da00")
+	)
+	(text "100 V/V"
+		(exclude_from_sim no)
+		(at 210.82 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b02dead0-7368-4f37-9375-1c4c9454e5ef")
+	)
+	(text "Output Current Sense"
+		(exclude_from_sim no)
+		(at 252.476 160.02 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "bb736a55-4735-4271-b34e-c5f0759fb355")
+	)
+	(text "LiPo voltage sense\n15V * (10k / (40k+10k)) = 3V"
+		(exclude_from_sim no)
+		(at 187.706 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c06c1058-381e-46c7-9dd7-4eb020ec4ace")
+	)
+	(text "200mA * 100 mohm * 100V/V = 2V"
+		(exclude_from_sim no)
+		(at 219.964 127.762 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c157d9cb-0acf-44a6-a70e-ee5b1e41f7d8")
+	)
+	(text "100 V/V"
+		(exclude_from_sim no)
+		(at 209.55 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdd0dd6a-ba5d-4e87-a58d-3001a6879d29")
+	)
+	(text "3V3_PWRGOOD"
+		(exclude_from_sim no)
+		(at 136.398 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e12fbc78-e195-4676-9c3b-e9c2f9f29972")
+	)
+	(text "USB VBus voltage sense\n6V * (10k / (10k+10k)) = 3V"
+		(exclude_from_sim no)
+		(at 224.536 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5cdcc1e-1b6d-45cc-81a4-9d1fa5d12c1d")
+	)
+	(text "100 V/V"
+		(exclude_from_sim no)
+		(at 57.15 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e65961e9-fa97-4785-8c64-64440d5899ea")
+	)
+	(text "3.3V output buck converter"
+		(exclude_from_sim no)
+		(at 73.406 182.372 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "eaff03f1-988c-4b3f-8c74-48827231c998")
 	)
 	(junction
 		(at 46.99 69.85)
@@ -2921,182 +3135,6 @@
 			(type default)
 		)
 		(uuid "fecde5e0-2de4-468b-ac6f-dd575a6cbe9d")
-	)
-	(text "100 V/V"
-		(exclude_from_sim no)
-		(at 76.2 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "05d13656-8a7f-4c50-9ee8-c1eb7db22b96")
-	)
-	(text "400mA * 50 mohm * 100 V/V = 2V"
-		(exclude_from_sim no)
-		(at 60.706 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "07d37006-4e3d-4000-9248-d59a93adea16")
-	)
-	(text "VIN_PWRGOOD\nFor LiPo power input only, would not light up with USB Power"
-		(exclude_from_sim no)
-		(at 125.984 96.774 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0ac35a85-5e8c-4629-a0b9-656c2665b76d")
-	)
-	(text "200mA * 100 mohm * 100V/V = 2V"
-		(exclude_from_sim no)
-		(at 198.628 80.518 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6ea3bee7-db3a-4fc5-a575-2c0d07a1b5ba")
-	)
-	(text "https://www.waveshare.com/wiki/2-CH_UART_TO_ETH"
-		(exclude_from_sim no)
-		(at 250.19 80.772 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8ca28f35-fac9-4739-80fb-600d0d7a11f7")
-	)
-	(text "Voltage Sensing"
-		(exclude_from_sim no)
-		(at 217.932 18.542 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "99269999-b540-49b6-b4ba-16b74fe67808")
-	)
-	(text "800mA * 30 mohm * 100 V/V = 2.4V"
-		(exclude_from_sim no)
-		(at 32.004 62.738 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9ed70cdb-be51-4393-8f3e-a3170dc8604c")
-	)
-	(text "Power OR-ing and input current sense"
-		(exclude_from_sim no)
-		(at 79.502 116.84 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "a02034d9-e1b5-427b-92e0-f144c9e9da00")
-	)
-	(text "100 V/V"
-		(exclude_from_sim no)
-		(at 210.82 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b02dead0-7368-4f37-9375-1c4c9454e5ef")
-	)
-	(text "Output Current Sense"
-		(exclude_from_sim no)
-		(at 252.476 160.02 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "bb736a55-4735-4271-b34e-c5f0759fb355")
-	)
-	(text "LiPo voltage sense\n15V * (10k / (40k+10k)) = 3V"
-		(exclude_from_sim no)
-		(at 187.706 68.834 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c06c1058-381e-46c7-9dd7-4eb020ec4ace")
-	)
-	(text "200mA * 100 mohm * 100V/V = 2V"
-		(exclude_from_sim no)
-		(at 219.964 127.762 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c157d9cb-0acf-44a6-a70e-ee5b1e41f7d8")
-	)
-	(text "100 V/V"
-		(exclude_from_sim no)
-		(at 209.55 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cdd0dd6a-ba5d-4e87-a58d-3001a6879d29")
-	)
-	(text "3V3_PWRGOOD"
-		(exclude_from_sim no)
-		(at 136.398 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e12fbc78-e195-4676-9c3b-e9c2f9f29972")
-	)
-	(text "USB VBus voltage sense\n6V * (10k / (10k+10k)) = 3V"
-		(exclude_from_sim no)
-		(at 224.536 68.834 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5cdcc1e-1b6d-45cc-81a4-9d1fa5d12c1d")
-	)
-	(text "100 V/V"
-		(exclude_from_sim no)
-		(at 57.15 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e65961e9-fa97-4785-8c64-64440d5899ea")
-	)
-	(text "3.3V output buck converter"
-		(exclude_from_sim no)
-		(at 73.406 182.372 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "eaff03f1-988c-4b3f-8c74-48827231c998")
 	)
 	(label "OR_VIN"
 		(at 149.86 69.85 0)
