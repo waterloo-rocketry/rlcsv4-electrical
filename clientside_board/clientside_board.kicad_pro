@@ -420,7 +420,11 @@
     ],
     [
       "2eef0b4c-2792-459e-b3bd-f96b75d115d2",
-      "Power"
+      "3V3 Power"
+    ],
+    [
+      "60ef00a2-ee56-485c-b6f7-d62c1ab7653f",
+      "5V Power"
     ]
   ],
   "text_variables": {}

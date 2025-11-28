@@ -3608,7 +3608,7 @@
 		)
 	)
 	(sheet
-		(at 218.44 30.48)
+		(at 163.83 31.75)
 		(size 41.91 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3623,8 +3623,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2eef0b4c-2792-459e-b3bd-f96b75d115d2")
-		(property "Sheetname" "Power"
-			(at 218.44 29.7684 0)
+		(property "Sheetname" "3V3 Power"
+			(at 163.83 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,8 +3632,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 218.44 81.8646 0)
+		(property "Sheetfile" "3v3_power.kicad_sch"
+			(at 163.83 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,6 +3645,48 @@
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.63 31.75)
+		(size 40.64 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "60ef00a2-ee56-485c-b6f7-d62c1ab7653f")
+		(property "Sheetname" "5V Power"
+			(at 214.63 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5v_power.kicad_sch"
+			(at 214.63 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "clientside_board"
+				(path "/94506b77-3097-414f-927c-35c0af27646f"
+					(page "7")
 				)
 			)
 		)
