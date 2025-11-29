@@ -6065,7 +6065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1476113b-9388-421c-abe7-c31b508edb11")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0123"
 			(at 226.06 90.17 0)
 			(effects
 				(font
@@ -6115,7 +6115,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR094")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -6132,7 +6132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "148bea66-025d-4b7d-980a-152ea99b15a9")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0126"
 			(at 274.32 38.1 0)
 			(effects
 				(font
@@ -6182,7 +6182,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0110")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -6198,7 +6198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c42865d-5938-4bc1-9390-cae2edc1b839")
-		(property "Reference" "U9"
+		(property "Reference" "U4"
 			(at 103.7433 173.99 0)
 			(effects
 				(font
@@ -6318,7 +6318,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "U9")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6334,7 +6334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dd7212a-a3c0-4799-bb3f-0c48756875c3")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0122"
 			(at 226.06 77.47 0)
 			(effects
 				(font
@@ -6384,7 +6384,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR093")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -6400,7 +6400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f46cf7e-e2df-49b8-9b90-a3daeef9489d")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR098"
 			(at 30.48 31.75 0)
 			(effects
 				(font
@@ -6450,7 +6450,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0122")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -6466,7 +6466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21b4bf81-4629-4c2c-b232-11570428df96")
-		(property "Reference" "R48"
+		(property "Reference" "R36"
 			(at 240.03 128.2699 0)
 			(effects
 				(font
@@ -6520,7 +6520,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "R48")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -6536,7 +6536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23116fab-b29f-4e88-947d-601890bf2636")
-		(property "Reference" "C30"
+		(property "Reference" "C21"
 			(at 30.48 126.9999 0)
 			(effects
 				(font
@@ -6554,7 +6554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 27.6352 132.08 0)
 			(effects
 				(font
@@ -6590,7 +6590,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "C30")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6606,7 +6606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "260460a5-1b34-4384-94cb-b32c3b834557")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0100"
 			(at 40.64 160.02 0)
 			(effects
 				(font
@@ -6656,7 +6656,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0140")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -6672,7 +6672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e286254-ec1e-4100-b9d1-16d1c87038e1")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR096"
 			(at 26.67 125.73 0)
 			(effects
 				(font
@@ -6722,7 +6722,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0128")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -6738,7 +6738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4282d4ab-5846-412a-a055-bf4eca5247c1")
-		(property "Reference" "U8"
+		(property "Reference" "U3"
 			(at 102.4733 85.09 0)
 			(effects
 				(font
@@ -6858,7 +6858,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "U8")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6874,7 +6874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "495e46e2-7ca7-47c5-9bbc-865fc703140b")
-		(property "Reference" "C28"
+		(property "Reference" "C24"
 			(at 50.8 33.0199 0)
 			(effects
 				(font
@@ -6892,7 +6892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 47.9552 38.1 0)
 			(effects
 				(font
@@ -6928,7 +6928,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "C28")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -6945,7 +6945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "550c8f62-7436-44a6-8c60-34ecf5a635e5")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0105"
 			(at 46.99 45.72 0)
 			(effects
 				(font
@@ -6995,7 +6995,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0126")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -7011,7 +7011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d18c7e8-8da7-4f55-bcf5-b04821cdf657")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0117"
 			(at 104.14 116.84 0)
 			(effects
 				(font
@@ -7061,7 +7061,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0131")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -7078,7 +7078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6238b977-d90d-4da6-b80a-3bc8d9ab1f4d")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0106"
 			(at 62.23 125.73 0)
 			(effects
 				(font
@@ -7128,7 +7128,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0134")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -7144,7 +7144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71319918-b098-4137-b124-ce44329ce624")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0111"
 			(at 68.58 71.12 0)
 			(effects
 				(font
@@ -7194,7 +7194,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0138")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -7211,7 +7211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73c07757-f9eb-4fea-8f9f-9eac616f35d3")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0120"
 			(at 186.69 142.24 0)
 			(effects
 				(font
@@ -7261,7 +7261,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0150")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -7278,7 +7278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77505888-33f5-4f80-b977-fb9f0f0a0731")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0115"
 			(at 101.6 182.88 0)
 			(effects
 				(font
@@ -7328,7 +7328,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0137")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -7345,7 +7345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8152eea0-3fe7-4627-bd3e-ee885371ca21")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0124"
 			(at 227.33 49.53 0)
 			(effects
 				(font
@@ -7395,7 +7395,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR092")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -7412,7 +7412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "849a65f4-2201-4c4c-8108-3c346ec143dc")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0103"
 			(at 45.72 139.7 0)
 			(effects
 				(font
@@ -7462,7 +7462,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0133")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -7479,7 +7479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aa7e7e7-ebe3-4743-bef6-98faa17d3df7")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0104"
 			(at 46.99 31.75 0)
 			(effects
 				(font
@@ -7529,7 +7529,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0123")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -7546,7 +7546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d8897f1-3aae-4ea8-833c-960a327e3657")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0107"
 			(at 62.23 139.7 0)
 			(effects
 				(font
@@ -7596,7 +7596,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0135")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -7613,7 +7613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e168f87-5f6f-43e1-8726-839dc0971554")
-		(property "Reference" "J12"
+		(property "Reference" "J11"
 			(at 205.74 69.85 0)
 			(effects
 				(font
@@ -7668,7 +7668,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "J12")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -7684,7 +7684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90030f9b-fc3f-45fb-b0ac-2be12e79f19e")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0116"
 			(at 102.87 27.94 0)
 			(effects
 				(font
@@ -7734,7 +7734,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0121")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -7749,7 +7749,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a2da95e-7f5a-4aab-bd45-55011bd37d6e")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0113"
 			(at 99.06 116.84 0)
 			(effects
 				(font
@@ -7799,7 +7799,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0130")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -7815,7 +7815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a4fa1fc-9a39-4500-a28f-9d9f10505663")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0110"
 			(at 67.31 160.02 0)
 			(effects
 				(font
@@ -7865,7 +7865,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0141")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -7882,7 +7882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9abe9632-e2ac-4998-8eb4-fa6ffdb94073")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0121"
 			(at 217.17 142.24 0)
 			(effects
 				(font
@@ -7932,7 +7932,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0148")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -7949,7 +7949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b7a62d0-42e9-4094-a0f5-080b51cab5c4")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0102"
 			(at 45.72 125.73 0)
 			(effects
 				(font
@@ -7999,7 +7999,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0132")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -8015,7 +8015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d691b25-3c78-4daf-8168-1506af961a1f")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0101"
 			(at 41.91 71.12 0)
 			(effects
 				(font
@@ -8065,7 +8065,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0139")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -8081,7 +8081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e8fdd88-291c-4760-9729-f9755fece635")
-		(property "Reference" "J11"
+		(property "Reference" "J12"
 			(at 215.9 15.24 0)
 			(effects
 				(font
@@ -8181,7 +8181,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "J11")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -8197,7 +8197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a85a79bf-d9a6-4606-991c-381a13e0b237")
-		(property "Reference" "C32"
+		(property "Reference" "C25"
 			(at 66.04 126.9999 0)
 			(effects
 				(font
@@ -8215,7 +8215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 63.1952 132.08 0)
 			(effects
 				(font
@@ -8251,7 +8251,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "C32")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -8268,7 +8268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acb58913-4fa8-4009-9537-f4ae577e49a0")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR097"
 			(at 26.67 139.7 0)
 			(effects
 				(font
@@ -8318,7 +8318,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0129")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -8334,7 +8334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b85cc692-0286-4439-b951-bf7bcf963757")
-		(property "Reference" "R44"
+		(property "Reference" "R35"
 			(at 71.12 71.1199 0)
 			(effects
 				(font
@@ -8388,7 +8388,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "R44")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -8404,7 +8404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0114648-91df-4e91-ac84-77ee058bcfe7")
-		(property "Reference" "U10"
+		(property "Reference" "U5"
 			(at 217.17 115.57 0)
 			(effects
 				(font
@@ -8466,7 +8466,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "U10")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8482,7 +8482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5a7ab11-ad5e-47f0-8d81-102edef9d9cd")
-		(property "Reference" "R47"
+		(property "Reference" "R34"
 			(at 69.85 160.0199 0)
 			(effects
 				(font
@@ -8536,7 +8536,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "R47")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -8553,7 +8553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d731fd18-39db-4185-925a-f89699436dba")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0119"
 			(at 172.72 124.46 0)
 			(effects
 				(font
@@ -8603,7 +8603,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0147")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -8620,7 +8620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de965ea5-ca99-4fb0-988e-b8ce2aa0e526")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0118"
 			(at 161.29 62.23 0)
 			(effects
 				(font
@@ -8670,7 +8670,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR091")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -8687,7 +8687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e58c031a-fa07-4cb9-a9e9-938d02272878")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0109"
 			(at 63.5 45.72 0)
 			(effects
 				(font
@@ -8737,7 +8737,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0127")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -8752,7 +8752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6563892-a770-4d2d-a74c-3964fdd6bee2")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0112"
 			(at 97.79 27.94 0)
 			(effects
 				(font
@@ -8802,7 +8802,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0120")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -8818,7 +8818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e77b8b1e-d7ff-48a7-9c83-b16936c8294c")
-		(property "Reference" "C33"
+		(property "Reference" "C27"
 			(at 190.5 128.2699 0)
 			(effects
 				(font
@@ -8836,7 +8836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 187.6552 133.35 0)
 			(effects
 				(font
@@ -8872,7 +8872,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "C33")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -8888,7 +8888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e78f34d7-642a-4136-8d03-060692871806")
-		(property "Reference" "R45"
+		(property "Reference" "R33"
 			(at 44.45 72.3899 0)
 			(effects
 				(font
@@ -8942,7 +8942,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "R45")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -8958,7 +8958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecdf10d3-6aaa-4629-9ff8-992e15a45eb2")
-		(property "Reference" "C29"
+		(property "Reference" "C26"
 			(at 67.31 33.0199 0)
 			(effects
 				(font
@@ -8976,7 +8976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 64.4652 38.1 0)
 			(effects
 				(font
@@ -9012,7 +9012,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "C29")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -9028,7 +9028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed2b0f34-bc3a-4b13-a5f7-aee6827adf55")
-		(property "Reference" "R46"
+		(property "Reference" "R32"
 			(at 43.18 160.0199 0)
 			(effects
 				(font
@@ -9082,7 +9082,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "R46")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -9098,7 +9098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef848c62-485e-42c2-b364-9b689d7441f4")
-		(property "Reference" "C31"
+		(property "Reference" "C23"
 			(at 49.53 126.9999 0)
 			(effects
 				(font
@@ -9116,7 +9116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 46.6852 132.08 0)
 			(effects
 				(font
@@ -9152,7 +9152,7 @@
 		(instances
 			(project "clientside_board"
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "C31")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -9169,7 +9169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efadf989-8ec3-4e66-9573-8309267ed774")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0125"
 			(at 237.49 152.4 0)
 			(effects
 				(font
@@ -9219,7 +9219,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0149")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -9235,7 +9235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f59c170a-4b99-48ae-8eca-36f563744806")
-		(property "Reference" "C27"
+		(property "Reference" "C22"
 			(at 34.29 33.0199 0)
 			(effects
 				(font
@@ -9253,7 +9253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 31.4452 38.1 0)
 			(effects
 				(font
@@ -9289,7 +9289,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "C27")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9306,7 +9306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb94c9e9-fb02-46dd-bf21-24ca6ac2e6cc")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR099"
 			(at 30.48 45.72 0)
 			(effects
 				(font
@@ -9356,7 +9356,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0125")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -9373,7 +9373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc8fb80e-255d-404e-9651-522660c5032d")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0114"
 			(at 100.33 93.98 0)
 			(effects
 				(font
@@ -9423,7 +9423,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0136")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -9439,7 +9439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcc88f3a-4fe0-4f5b-b1bc-6e2127d7cdfb")
-		(property "Reference" "R49"
+		(property "Reference" "R37"
 			(at 240.03 138.4299 0)
 			(effects
 				(font
@@ -9493,7 +9493,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "R49")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -9510,7 +9510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff7b1a76-88de-4ef1-8665-a88b1f8f7bf9")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0108"
 			(at 63.5 31.75 0)
 			(effects
 				(font
@@ -9560,7 +9560,7 @@
 		(instances
 			(project ""
 				(path "/94506b77-3097-414f-927c-35c0af27646f/023e7328-87f3-46e3-af02-c5d7acdf81d2"
-					(reference "#PWR0124")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)

@@ -4342,6 +4342,28 @@
 			)
 		)
 	)
+	(global_label "MV8_IN"
+		(shape input)
+		(at 339.09 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ca694b5-f91d-477e-867a-a89aa941b6ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 348.7276 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART_TX"
 		(shape input)
 		(at 271.78 153.67 0)
@@ -4430,6 +4452,72 @@
 			)
 		)
 	)
+	(global_label "MV2_IN"
+		(shape input)
+		(at 339.09 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21e02dea-5fe0-4bec-bd7c-2287c19db63d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 348.7276 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MV7_IN"
+		(shape input)
+		(at 339.09 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c07be2a-f6ed-4bd4-aad7-b12c359373a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 348.7276 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MV9_IN"
+		(shape input)
+		(at 339.09 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3bc5912f-51c1-400e-92ed-8c69cd218744")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 348.7276 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART_CURR_SENSE"
 		(shape input)
 		(at 80.01 168.91 180)
@@ -4452,6 +4540,28 @@
 			)
 		)
 	)
+	(global_label "FIRE_IN"
+		(shape input)
+		(at 339.09 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4cd4766c-0b3b-497b-8bc9-af9d7240e30c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 349.0905 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COMM_STATUS_GREEN"
 		(shape input)
 		(at 271.78 113.03 0)
@@ -4465,6 +4575,72 @@
 		(uuid "4ed48bd9-0cea-400c-b94a-35f6d35c6c23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 295.1455 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MV11_IN"
+		(shape input)
+		(at 339.09 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cebd4b3-90a5-4f41-9421-ef34f54ae3e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 349.9371 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_CTRL"
+		(shape input)
+		(at 339.09 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63010646-0804-468d-bc97-d883cf4be76d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 351.0256 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MV1_IN"
+		(shape input)
+		(at 339.09 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7cd1e74e-85ba-4de7-9efd-7341111bc414")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 348.7276 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,6 +4694,116 @@
 			)
 		)
 	)
+	(global_label "MV12_IN"
+		(shape input)
+		(at 339.09 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85ff8988-e84e-434c-951d-f0f51436fd36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 349.9371 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MV6_IN"
+		(shape input)
+		(at 339.09 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bc68a54-3cb7-4199-bda8-8ac2fca8fb79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 348.7276 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "KEYLOCK_IN"
+		(shape input)
+		(at 339.09 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c7b95f1-d878-41bc-8262-e86bfbb55897")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 353.3843 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MV10_IN"
+		(shape input)
+		(at 339.09 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "927a6e51-f8c1-43a0-8243-5e3200907ccc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 349.9371 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ARM_PRI_IN"
+		(shape input)
+		(at 339.09 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97b9d685-130d-4314-ba79-da0fdd3393da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 352.9005 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS_CURR_SENSE"
 		(shape input)
 		(at 80.01 166.37 180)
@@ -4562,6 +4848,28 @@
 			)
 		)
 	)
+	(global_label "MV3_IN"
+		(shape input)
+		(at 339.09 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa50d8cd-3914-40fd-9221-6e095d7d5028")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 348.7276 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COMM_STATUS_RED"
 		(shape input)
 		(at 271.78 110.49 0)
@@ -4575,6 +4883,50 @@
 		(uuid "b1bf8797-d47a-4043-8f4c-58b342971368")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 292.666 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ARM_SEC_IN"
+		(shape input)
+		(at 339.09 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf3b0c69-fadb-48a7-88bf-b6726d99f865")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 353.3842 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INJ_IN"
+		(shape input)
+		(at 339.09 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5b7f28a-0234-4702-80a5-0805da619b8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 347.881 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,6 +4958,50 @@
 			)
 		)
 	)
+	(global_label "MV4_IN"
+		(shape input)
+		(at 339.09 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4833fb6-ef83-432d-a64a-2c66cb1a3e01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 348.7276 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MV5_IN"
+		(shape input)
+		(at 339.09 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef04ee5f-fda6-4404-8a6b-57d9cba9d9f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 348.7276 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "LCD_DB0"
 		(shape output)
 		(at 80.01 115.57 180)
@@ -4627,6 +5023,17 @@
 			(justify right)
 		)
 		(uuid "0edbd5e3-566c-4fd3-84fe-ee8010c9af4a")
+	)
+	(hierarchical_label "CTRL_SHIFT_DIR"
+		(shape output)
+		(at 339.09 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1498a350-4137-489c-9aaf-2283f34e3546")
 	)
 	(hierarchical_label "LCD_RW"
 		(shape output)
@@ -4749,6 +5156,17 @@
 		)
 		(uuid "c91e6d7c-dfc6-4e73-9b14-ee2170e4e462")
 	)
+	(hierarchical_label "CTRL_SHIFT_OE"
+		(shape output)
+		(at 339.09 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d395a88d-12b1-4119-96b5-a3d851e7d71d")
+	)
 	(hierarchical_label "LCD_RS"
 		(shape output)
 		(at 80.01 105.41 180)
@@ -4781,6 +5199,28 @@
 			(justify right)
 		)
 		(uuid "e2cf0814-115f-42f5-a109-56129bca74a3")
+	)
+	(hierarchical_label "DATA_SHIFT_OE"
+		(shape output)
+		(at 339.09 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0afea9a-05d7-4d40-b032-cfd217efd4c2")
+	)
+	(hierarchical_label "DATA_SHIFT_DIR"
+		(shape output)
+		(at 339.09 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4c78040-1c54-48a3-9444-9a44321212f6")
 	)
 	(hierarchical_label "ETH_SPI_CS"
 		(shape output)
@@ -5828,7 +6268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 83.5152 35.56 0)
 			(effects
 				(font
@@ -6160,7 +6600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 69.5452 35.56 0)
 			(effects
 				(font
@@ -6362,7 +6802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 295.6052 185.42 0)
 			(effects
 				(font
@@ -6642,7 +7082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 98.7552 35.56 0)
 			(effects
 				(font
@@ -7543,7 +7983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 25.0952 35.56 0)
 			(effects
 				(font
@@ -7816,7 +8256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 54.3052 35.56 0)
 			(effects
 				(font
@@ -7886,7 +8326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 39.0652 35.56 0)
 			(effects
 				(font
