@@ -1,0 +1,1070 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "11d06362-4d72-4085-8282-fc7f3f60ce3c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "T92S11D12-12:T92S11D12-12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "T92S11D12-12"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "T92S11D1212"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T92&DocType=Data%20Sheet&DocLang=English&PartCntxt=8-1393211-9&DocFormat=pdf"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Body Features: Insulation Special Features 8000V Initial Surge Withstand Voltage between Contacts & Coil | Product Weight 3.034 OZ | Product Weight 86 G | Packaging Style Panel Mount | Configuration Features: Output Switching Random | Contact Features: Contact Material AgCdO | Contact Arrangement 2 Form C, DPDT | Contact Current Class 30  50 AMP | Switch Arrangement (2) x 1 Form C | Contact Number of Poles 2 | Contact Current Rating (Max) 30 AMP | Dimensions: Length Class (Mechanical) 50  60 MM | Prod"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "30.73"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TE Connectivity"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "T92S11D12-12"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "655-T92S11D12-12"
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/T92S11D12-12?qs=WxIUe09p%2FPP9SKWDQuPkGw%3D%3D"
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "T92S11D12-12"
+				(at 29.21 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/t92s11d12-12/te-connectivity?region=nac"
+				(at 29.21 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "T92S11D12-12_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COIL_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "COIL_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "COIL_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COIL_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "NO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "COM_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "COM_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -5.08 180)
+					(length 5.08)
+					(name "NO_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -7.62 180)
+					(length 5.08)
+					(name "NO_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -10.16 180)
+					(length 5.08)
+					(name "NC_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -12.7 180)
+					(length 5.08)
+					(name "NC_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -15.24 180)
+					(length 5.08)
+					(name "COM_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "81"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -17.78 180)
+					(length 5.08)
+					(name "COM_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "82"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 160.02 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60c98512-a6b1-42f8-8127-8bfbeb689d72")
+	)
+	(junction
+		(at 124.46 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "683cab3d-d125-4224-8dc6-e6f052047673")
+	)
+	(junction
+		(at 124.46 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c202273-7ea1-4eb6-a449-6960f6403469")
+	)
+	(junction
+		(at 160.02 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "872c1f70-5b97-47a1-9a85-a01bc89d9adc")
+	)
+	(junction
+		(at 124.46 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2b8fb05-7243-4f83-a927-0e9103b63070")
+	)
+	(junction
+		(at 124.46 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b33de907-21c3-4472-aa15-76c6083b08c2")
+	)
+	(junction
+		(at 160.02 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9e99795-3859-4eea-b66f-b5307f2140b2")
+	)
+	(junction
+		(at 160.02 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e24fd4be-b270-4854-95b3-df7baa567ee3")
+	)
+	(wire
+		(pts
+			(xy 124.46 83.82) (xy 124.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10706cee-adf2-46ad-a707-41277ab272ae")
+	)
+	(wire
+		(pts
+			(xy 124.46 88.9) (xy 125.73 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c78a50-4ff9-480c-8c39-e6cad2ded26f")
+	)
+	(wire
+		(pts
+			(xy 123.19 93.98) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325198b2-277e-4899-993c-d7ab10e292f6")
+	)
+	(wire
+		(pts
+			(xy 124.46 88.9) (xy 124.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349b9a6f-a4c7-4d8b-9dba-fcb33e3d53ea")
+	)
+	(wire
+		(pts
+			(xy 124.46 86.36) (xy 125.73 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397e898d-7ee3-4dff-9f2e-5b98728cb793")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.06) (xy 125.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b81a231-ff14-47d7-9e5f-c2efb6c5e1da")
+	)
+	(wire
+		(pts
+			(xy 160.02 91.44) (xy 158.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5fade1-85eb-461a-a31d-37c62369b43e")
+	)
+	(wire
+		(pts
+			(xy 160.02 101.6) (xy 158.75 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48edb5f7-f798-494c-8c47-f2274443a6b8")
+	)
+	(wire
+		(pts
+			(xy 158.75 83.82) (xy 160.02 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d874205-69c0-4dde-9a62-6f22de13aa8f")
+	)
+	(wire
+		(pts
+			(xy 124.46 83.82) (xy 125.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513ad4ab-e61c-470f-924b-66022c874651")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.06) (xy 124.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529a7f75-362a-4e1c-a035-caa9118a6862")
+	)
+	(wire
+		(pts
+			(xy 158.75 88.9) (xy 160.02 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b50cf6-5f5c-44d0-aeed-208519157d5d")
+	)
+	(wire
+		(pts
+			(xy 160.02 86.36) (xy 158.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53068f78-d007-4298-83a6-c77d0504a045")
+	)
+	(wire
+		(pts
+			(xy 160.02 83.82) (xy 161.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61677c16-ce21-4715-8c6b-b506975054cc")
+	)
+	(wire
+		(pts
+			(xy 124.46 101.6) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e662f2a-0f9a-4652-8e4c-305c6413428b")
+	)
+	(wire
+		(pts
+			(xy 123.19 99.06) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81662f1c-f101-40b0-a1f3-d60117b89dcd")
+	)
+	(wire
+		(pts
+			(xy 160.02 99.06) (xy 160.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861b3479-0037-435c-8042-fef9a9fb1ce7")
+	)
+	(wire
+		(pts
+			(xy 124.46 91.44) (xy 125.73 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d1659b7-e46d-40e6-afc2-c5cbe2ac6188")
+	)
+	(wire
+		(pts
+			(xy 160.02 99.06) (xy 161.29 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97176eac-9bf2-417c-984e-78ef28ac9f7d")
+	)
+	(wire
+		(pts
+			(xy 123.19 88.9) (xy 124.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992a2f1b-6e9d-4974-9a32-c02f6419b917")
+	)
+	(wire
+		(pts
+			(xy 124.46 96.52) (xy 125.73 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec84919-77c2-416d-a95c-81b18e203637")
+	)
+	(wire
+		(pts
+			(xy 160.02 88.9) (xy 161.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e16700-0135-4939-85eb-1530fcde5900")
+	)
+	(wire
+		(pts
+			(xy 123.19 83.82) (xy 124.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9c394f-d735-441f-aa7b-0945be228da7")
+	)
+	(wire
+		(pts
+			(xy 158.75 93.98) (xy 160.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1519ccb-eb79-4ec0-ab64-5ee4defe8520")
+	)
+	(wire
+		(pts
+			(xy 160.02 93.98) (xy 160.02 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94661ff-702f-4405-af26-ef6b98bddcfe")
+	)
+	(wire
+		(pts
+			(xy 124.46 93.98) (xy 125.73 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39c8336-0c42-48b8-a5df-a3556f13a377")
+	)
+	(wire
+		(pts
+			(xy 160.02 93.98) (xy 161.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d676c665-51e5-4890-aff2-bbae8e3cef3c")
+	)
+	(wire
+		(pts
+			(xy 124.46 93.98) (xy 124.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fc1199-fc0b-4061-915c-d2213b7f845a")
+	)
+	(wire
+		(pts
+			(xy 160.02 96.52) (xy 158.75 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf3e411-7bc9-4e53-b999-d27eefa9c839")
+	)
+	(wire
+		(pts
+			(xy 158.75 99.06) (xy 160.02 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f034a315-287c-48f6-bf0e-014151150867")
+	)
+	(wire
+		(pts
+			(xy 160.02 88.9) (xy 160.02 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f769f2ef-3738-4773-b70d-4508b85935a0")
+	)
+	(wire
+		(pts
+			(xy 160.02 83.82) (xy 160.02 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe1b6ef-b688-4742-8e9b-751aec10632d")
+	)
+	(hierarchical_label "CIN"
+		(shape input)
+		(at 123.19 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1aebcbb8-7a2f-43cb-97ff-22ef73d085ce")
+	)
+	(hierarchical_label "COM1"
+		(shape input)
+		(at 161.29 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7410d787-ee24-40c6-b9e8-1e5ed967a6d3")
+	)
+	(hierarchical_label "COUT"
+		(shape input)
+		(at 123.19 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b59370f5-c3de-4f62-bcc9-6495dcd12bf1")
+	)
+	(hierarchical_label "NC1"
+		(shape input)
+		(at 123.19 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc95172e-62ca-4663-aad6-ad5ea3978faa")
+	)
+	(hierarchical_label "NC2"
+		(shape input)
+		(at 161.29 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccddb72b-415e-44e2-a1f3-ff9e0a5cfc83")
+	)
+	(hierarchical_label "COM2"
+		(shape input)
+		(at 161.29 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d52add03-3693-4a97-bf97-b11a7d72c7f5")
+	)
+	(hierarchical_label "NO1"
+		(shape input)
+		(at 123.19 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d71253d6-3b4b-40b5-800c-2a08728d3d2f")
+	)
+	(hierarchical_label "NO2"
+		(shape input)
+		(at 161.29 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7c0f5ab-a80d-4c7d-8a0b-a9e0d61af14f")
+	)
+	(symbol
+		(lib_id "T92S11D12-12:T92S11D12-12")
+		(at 125.73 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bccb9da-093d-4fca-bdde-b5c897198622")
+		(property "Reference" "K4"
+			(at 142.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "T92S11D12-12"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "relay_board:T92S11D1212"
+			(at 154.94 178.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T92&DocType=Data%20Sheet&DocLang=English&PartCntxt=8-1393211-9&DocFormat=pdf"
+			(at 154.94 278.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Insulation Special Features 8000V Initial Surge Withstand Voltage between Contacts & Coil | Product Weight 3.034 OZ | Product Weight 86 G | Packaging Style Panel Mount | Configuration Features: Output Switching Random | Contact Features: Contact Material AgCdO | Contact Arrangement 2 Form C, DPDT | Contact Current Class 30  50 AMP | Switch Arrangement (2) x 1 Form C | Contact Number of Poles 2 | Contact Current Rating (Max) 30 AMP | Dimensions: Length Class (Mechanical) 50  60 MM | Prod"
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "30.73"
+			(at 154.94 478.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 154.94 578.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "T92S11D12-12"
+			(at 154.94 678.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "655-T92S11D12-12"
+			(at 154.94 778.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/T92S11D12-12?qs=WxIUe09p%2FPP9SKWDQuPkGw%3D%3D"
+			(at 154.94 878.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "T92S11D12-12"
+			(at 154.94 978.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/t92s11d12-12/te-connectivity?region=nac"
+			(at 154.94 1078.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "22"
+			(uuid "a2c89721-ecf8-472f-9d3f-9b6006ea8990")
+		)
+		(pin "11"
+			(uuid "5eb43ad4-9520-4eb3-9bd8-d3754e8e1f49")
+		)
+		(pin "21"
+			(uuid "b744d649-9de7-41fc-8271-1bf5182740e0")
+		)
+		(pin "31"
+			(uuid "2040757e-2e30-4725-b0d8-465bbe3c166e")
+		)
+		(pin "82"
+			(uuid "b2379277-1e5e-420a-a647-6faebe9c8fbb")
+		)
+		(pin "2"
+			(uuid "2ef85f82-a376-4bb1-ab79-eaed8f622abe")
+		)
+		(pin "1"
+			(uuid "69e1b7fc-27fe-46a7-91e0-a086727f9922")
+		)
+		(pin "71"
+			(uuid "7c4ffbff-ad91-4b13-b25f-abbd67ee5b9f")
+		)
+		(pin "41"
+			(uuid "e627faa6-6dd9-4563-825b-2e950d64a605")
+		)
+		(pin "12"
+			(uuid "28dd2480-210f-4f54-9c11-ce0c0a48c896")
+		)
+		(pin "61"
+			(uuid "04199705-ce20-4aa8-b46a-719b75c42268")
+		)
+		(pin "42"
+			(uuid "7c94098f-e6a9-47df-93ea-0a8a372a80b5")
+		)
+		(pin "32"
+			(uuid "7ebdc573-a55e-4db0-90cc-ab76055ca95c")
+		)
+		(pin "81"
+			(uuid "97ff763b-6fd9-4951-b961-4554d6248786")
+		)
+		(pin "62"
+			(uuid "8cffdd93-1a00-4e93-9bf8-49e8520ce112")
+		)
+		(pin "72"
+			(uuid "b05bd0d1-5d3d-4673-be7f-5cb4977d5382")
+		)
+		(instances
+			(project "valve_ignition_relay_board"
+				(path "/94351a53-b420-4d44-8362-943e33303975/81353166-947a-4a33-8395-b68f20448e6e/3b02e6cf-f55f-4bf8-9c4e-cd5ce85eddc0"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
